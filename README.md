@@ -32,8 +32,8 @@ O projeto abrange as seguintes etapas:
   - pandas
   - sqlite3
   - zipfile
-- GitHub
-- Git
+  - GitHub
+  - Git
 
 ## Como Rodar
 
@@ -59,10 +59,10 @@ O projeto abrange as seguintes etapas:
    pip install -r requirements.txt
    
 5. Execute os scripts conforme a ordem abaixo:
-# extrair_pdf_para_csv.py: Extrai dados dos PDFs e salva em CSV.
-# limpar_dados.py: Limpa e estrutura os dados.
-# importar_para_db.py: Importa os dados para um banco de dados SQLite.
-# compactar_arquivos.py: Compacta os arquivos em um arquivo ZIP.
+- extrair_pdf_para_csv.py: Extrai dados dos PDFs e salva em CSV.
+- limpar_dados.py: Limpa e estrutura os dados.
+- importar_para_db.py: Importa os dados para um banco de dados SQLite.
+- compactar_arquivos.py: Compacta os arquivos em um arquivo ZIP.
 
 6. Verifique os resultados:
    Os arquivos serão gerados nas pastas apropriadas, incluindo os dados limpos em CSV e o arquivo ZIP.
